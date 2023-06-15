@@ -1,0 +1,92 @@
+body{
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  grid-gap: 60px;
+  padding-top: 50px;
+}
+
+.not-found{
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: 'Inconsolata', sans-serif;
+  font-size:15px;
+  font-style:normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+}
+.message{
+  width: 90%;
+  font-family: 'Space Mono', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+
+  color: #333333;
+}
+.text{
+  width: 60%;
+  font-family: 'Space Mono', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  color:#4f4f4f;
+
+}
+.rhs {
+  display: flex;
+  flex-direction: column;
+}
+
+.t {
+  font-family: 'Space Mono', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.re button{
+  background: #333333;
+  padding: 20px;
+}
+.e h3 {
+  margin: 0;
+  font-size: 14px;
+  font-family:'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+
+  color: #BDBDBD;
+}
+.e{
+  padding: 80px;
+}
+
+image {
+  width: 100%;
+}
+@media screen and (max-width:768px){
+  main{
+    display: block;
+  }
+  .text{
+    width: 100%;
+  }
+}
